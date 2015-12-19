@@ -1,7 +1,7 @@
 # Spring properties
 spring:
   application:
-     name: accounts-service  # Service registers under this name
+     name: accounts-service2  # Service registers under this name
   freemarker:
     enabled: false           # Ignore Eureka dashboard FreeMarker templates
   thymeleaf:
@@ -21,7 +21,7 @@ eureka:
 
 # HTTP Server
 server:
-  port: 2222   # HTTP (Tomcat) port
+  port: 4444   # HTTP (Tomcat) port
 
 
 
